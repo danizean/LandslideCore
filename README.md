@@ -1,20 +1,11 @@
-# LandslideCore: A Tendermint Subnet on Avalanche
+# LandslideCore: The IBC Bridge to Avalanche
 
 ![picture alt](https://media.publit.io/file/Landslide/Landslide-Background.png "Landslide")
 
-The Landslide Network is an Avalanche Subnet which decreases the finality of Tendermint consensus, and will port over the majority of the Cosmos and Terra ecosystems via an opensource Cosmwasm SDK to run any Tendermint-based dApp natively within the AVAX ecosystem.
+Landslide is a game-changing IBC bridge to Avalanche, enabling seamless interoperability between Avalanche, Cosmos, and other IBC-enabled chains. It ushers in a new era of cross-chain DeFi operations, scalability, and streamlined user experience by enabling any CosmWasm-based dapp to run natively on the Avalanche network. Through Landslide, we're fostering a more interconnected, robust blockchain ecosystem, enhancing liquidity, diversifying applications and assets, and attracting a broader user base to blockchain.
 
-Finality on Tendermint will be reduced to subsecond.
-
-This new Cosmwasm SDK can be used to develop games, AMMs, and other dapps that require high throughput and scalability that are currently unavailable on Cosmos or Terra due to the slow finality of Tendermint consensus.
-
-## Goals
-* Decrease the finality of transactions on Tendermint from 7-22 seconds to under 1 second.
-* Fork/port existing Cosmos and Terra dApps to the subnet.
-* Take advantage of trading opportunities created by the faster finality times.
-* 99% compatible out-of-the-box with native Cosmos-based SDK.
-* Create a closer collaboration between the three ecosystems of Avalanche, Terra, and Cosmos.
-* Airdrop tokens to the most amount users on Avalanche, Terra, and Cosmos.
+## The Most Secure Interoperability
+Firstly, the IBC protocol allows for seamless interoperability between different blockchains. In the context of Avalanche, an IBC bridge means that Avalanche can securely and efficiently interact with Cosmos and any other IBC-enabled chains (Polkadot being the most recent), facilitating asset and data transfer between these networks. This opens up a new world of possibilities, such as cross-chain DeFi operations, where a user on one network can utilize financial products on another network, enhancing overall accessibility and utility.
 
 ## Motivation
 The large scale adoption of Tendermint is entirely dependent on Tendermint consensus. While rollups do present a potential soluiton to TPS, they present centralized security risks.
@@ -24,20 +15,13 @@ With a Tendermint module and Avalanche consensus, now the Cosmos and Terra ecosy
 ![picture alt](https://media.publit.io/file/Landslide/Landslide-Design.png "Landslide Architecture")
 
 
-## Network Characteristics
-* Be accessible via the Terra Station, Keplr, and Core AVAX wallets.
-* Integrate the Cosmos IBC via Tendermint/Avalanche SDK.
-  * This will help facilitate swaps between AVAX and ATOM when atomic swaps between subnets go live on Avalanche in Q4 2022.
-* All $LUNA, $ATOM, and $AVAX balances, and instances will be replaced with $SLIDE tokens.
-* The balances will be logarithmically adjusted to ensure a fair distribution.
-* UST will not be forked to Landslide.
-* Fork most Terra and Cosmos tokens and Dapps into the subnet.
-* Stock tokens from Mirror will be frozen until the Landslide DAO, or the Foundation, votes to unfreeze these assets (which may or may not occur) based on the legal risk and Foundation policies.
-* Create a custom open source Avalanche-Cosmos SDK merging the Cosmos SDK with the Avalanche SDK.
-* Innovative inflationary network fees are being discussed in addition to the native $AVAX burning mechanism.
-* Fees may be split between being burned (similar to AVAX), and being sent to popular network apps via token holders (similar to Archway).
-* These parameters will be governed by the voting similar to current native Terra voting.
-* Require Landslide Validators to be validators on AVAX mainnet.
+## Goals
+*The Landslide Network aims to address some of the challenges faced by existing blockchain networks such as slow transaction finality, scalability issues, and limited interoperability. The following are the main goals of the Landslide Network:
+*Connect natively to IBC: The Landslide Network enables native transfers of all IBC-connected tokens. This allows for seamless transfer of assets between the Landslide Network and other IBC-enabled chains.
+*Decrease transaction finality: The Landslide Network aims to reduce the finality time of transactions on Tendermint from 7-22 seconds to under 1 second, making it one of the fastest networks in the blockchain ecosystem.
+*Take advantage of trading opportunities: With faster finality times, the Landslide Network can take advantage of trading opportunities that arise in fast-paced environments, making it an attractive platform for high-frequency traders.
+*100% compatibility with CosmosSDK: The Landslide Network is designed to be highly compatible with the native Cosmos-based SDK, enabling developers to easily port their existing dApps to the Landslide Network.
+*Collaboration between Avalanche, Cosmos, and other IBC-enabled chains: The Landslide Network aims to create closer collaboration between the three ecosystems of Avalanche, Cosmos, and other IBC-enabled chains, creating a stronger, more interconnected blockchain ecosystem.
 
 ## Run Local Network
 

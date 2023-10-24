@@ -1,33 +1,74 @@
 # LandslideCore: The IBC Bridge to Avalanche
 
-![picture alt](https://media.publit.io/file/Landslide/Landslide-Background.png "Landslide")
+![Landslide Logo](https://media.publit.io/file/Landslide/Github/Github.png "Landslide")
 
-Landslide is a game-changing IBC bridge to Avalanche, enabling seamless interoperability between Avalanche, Cosmos, and other IBC-enabled chains. It ushers in a new era of cross-chain DeFi operations, scalability, and streamlined user experience by enabling any CosmWasm-based dapp to run natively on the Avalanche network. Through Landslide, we're fostering a more interconnected, robust blockchain ecosystem, enhancing liquidity, diversifying applications and assets, and attracting a broader user base to blockchain.
+## Introduction
+
+Landslide is a game-changing IBC bridge to Avalanche, designed to enable seamless interoperability between Avalanche, Cosmos, and other IBC-enabled chains. Our core mission is to bring forth a new era of cross-chain DeFi operations, scalability, and user experience.
+
+---
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Benefits](#benefits)
+3. [The Most Secure Interoperability](#the-most-secure-interoperability)
+4. [Motivation](#motivation)
+5. [Architecture](#architecture)
+6. [Goals](#goals)
+7. [Run Local Network](#run-local-network)
+
+---
+
+## Overview
+
+By implementing the necessary ABCI calls, Landslide Core enables developers to connect their existing Cosmos dApps to the Avalanche network. This opens doors to faster finality times and IBC compatibility.
+
+---
+
+## Benefits
+
+Avalanche's consensus protocol offers a slew of benefits:
+
+- **Improved User Experience**: Faster finality times enable quick trades and seamless interactions.
+- **Increased Liquidity**: Landslide can process more transactions per second, contributing to a more robust market.
+- **Reduced Risk of Liquidations**: Quick finality minimizes cascading liquidations during market volatility.
+- **Enhanced Arbitrage Opportunities**: Faster transactions enable efficient cross-chain arbitrage.
+
+Deploying an outpost on Avalanche is a strategic move that not only improves user experience but also contributes to the overall growth and success of Cosmos.
+
+---
 
 ## The Most Secure Interoperability
-Firstly, the IBC protocol allows for seamless interoperability between different blockchains. In the context of Avalanche, an IBC bridge means that Avalanche can securely and efficiently interact with Cosmos and any other IBC-enabled chains (Polkadot being the most recent), facilitating asset and data transfer between these networks. This opens up a new world of possibilities, such as cross-chain DeFi operations, where a user on one network can utilize financial products on another network, enhancing overall accessibility and utility.
+
+The IBC protocol offers seamless interoperability, enabling Avalanche to interact securely and efficiently with Cosmos and other IBC-enabled chains. This enables:
+- Cross-chain DeFi operations
+- Smooth asset and data transfers
+
+---
 
 ## Motivation
-The large scale adoption of Tendermint is entirely dependent on Tendermint consensus. While rollups do present a potential soluiton to TPS, they present centralized security risks.
-With a Tendermint module and Avalanche consensus, now the Cosmos and Terra ecosystems will be able to build entire realm of metaverse, gaming, and trading applications that were formerly impossible to scale.
 
-## Architecture
-![picture alt](https://media.publit.io/file/Landslide/Landslide-Design.png "Landslide Architecture")
+Tendermint's scalability is limited by its consensus algorithm. Although rollups could solve throughput issues, they introduce security compromises. Avalanche and Tendermint consensus together unlock scalable solutions in various applications, including metaverse and gaming.
 
+---
 
 ## Goals
-*The Landslide Network aims to address some of the challenges faced by existing blockchain networks such as slow transaction finality, scalability issues, and limited interoperability. The following are the main goals of the Landslide Network:
-*Connect natively to IBC: The Landslide Network enables native transfers of all IBC-connected tokens. This allows for seamless transfer of assets between the Landslide Network and other IBC-enabled chains.
-*Decrease transaction finality: The Landslide Network aims to reduce the finality time of transactions on Tendermint from 7-22 seconds to under 1 second, making it one of the fastest networks in the blockchain ecosystem.
-*Take advantage of trading opportunities: With faster finality times, the Landslide Network can take advantage of trading opportunities that arise in fast-paced environments, making it an attractive platform for high-frequency traders.
-*100% compatibility with CosmosSDK: The Landslide Network is designed to be highly compatible with the native Cosmos-based SDK, enabling developers to easily port their existing dApps to the Landslide Network.
-*Collaboration between Avalanche, Cosmos, and other IBC-enabled chains: The Landslide Network aims to create closer collaboration between the three ecosystems of Avalanche, Cosmos, and other IBC-enabled chains, creating a stronger, more interconnected blockchain ecosystem.
+
+The Landslide Network aims to:
+
+- **Connect Natively to IBC**: Enable native transfers of all IBC-connected tokens.
+- **Decrease Transaction Finality**: Reduce transaction finality time to under 1 second.
+- **Leverage Trading Opportunities**: Capitalize on fast-paced trading environments.
+- **CosmosSDK Compatibility**: 100% compatible with Cosmos-based SDK.
+
+---
 
 ## Run Local Network
 
-To run a local network, it is recommended to use the [avalanche-cli](https://github.com/ava-labs/avalanche-cli#avalanche-cli) to set up an instance of Subnet-EVM on an local Avalanche Network.
+To run a local Landslide network, follow these steps:
 
-There are two options when using the Avalanche-CLI:
+1. Use [avalanche-cli](https://github.com/ava-labs/avalanche-cli#avalanche-cli) to set up an instance of Subnet-EVM on a local Avalanche network.
+  
+  - [Official Subnet-EVM Release](https://docs.avax.network/subnets/build-first-subnet)
+  - [Locally Built Subnet-EVM](https://docs.avax.network/subnets/create-custom-subnet)
 
-1. Use an official Subnet-EVM release: https://docs.avax.network/subnets/build-first-subnet
-2. Build and deploy a locally built (and optionally modified) version of Subnet-EVM: https://docs.avax.network/subnets/create-custom-subnet

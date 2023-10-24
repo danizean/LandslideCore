@@ -48,7 +48,7 @@ The IBC protocol offers seamless interoperability, enabling Avalanche to interac
 
 ## Motivation
 
-Tendermint's scalability is limited by its consensus algorithm. Although rollups could solve throughput issues, they introduce security compromises. Avalanche and Tendermint consensus together unlock scalable solutions in various applications, including metaverse and gaming.
+Tendermint's scalability is limited by its consensus algorithm. Although rollups could solve throughput issues, they introduce security compromises. Avalanche and CosmosSDK together unlock scalable solutions in various applications, including metaverse and gaming.
 
 ---
 

@@ -2,6 +2,10 @@
 
 ![Landslide Logo](https://media.publit.io/file/Landslide/Github/Github.png "Landslide")
 
+## Version Information
+
+LandslideCore is based on [Tendermint 0.34.19](https://github.com/tendermint/tendermint/blob/v0.34.19/CHANGELOG.md#v0.34.19), released on April 8, 2022.
+
 ## Introduction
 
 Landslide is a game-changing IBC bridge to Avalanche, designed to enable seamless interoperability between Avalanche, Cosmos, and other IBC-enabled chains. Our core mission is to bring forth a new era of cross-chain DeFi operations, scalability, and user experience.
@@ -48,7 +52,7 @@ The IBC protocol offers seamless interoperability, enabling Avalanche to interac
 
 ## Motivation
 
-Tendermint's scalability is limited by its consensus algorithm. Although rollups could solve throughput issues, they introduce security compromises. Avalanche and CosmosSDK together unlock scalable solutions in various applications, including metaverse and gaming.
+Cosmos's scalability is limited by its consensus algorithm, Tendermint. Although rollups could solve throughput issues, they introduce security compromises. Avalanche and CosmosSDK together unlock scalable solutions in various applications, including metaverse and gaming.
 
 ---
 
